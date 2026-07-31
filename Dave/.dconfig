@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectConfig>
+    <ResourceReserve/>
+    <Solver>
+        <SolverBndMap>
+            <BindMap MUri="devicepackage/0/61" Proxy="app/DIGITAL_IO/2/__pin_hwres_port_pin"/>
+            <BindMap MUri="peripheral/can/0/node/0" Proxy="app/CAN_NODE/1/hwres_can_node"/>
+            <BindMap MUri="peripheral/can/0/mo/19" Proxy="app/CAN_NODE/1/hwres_can_mobj1"/>
+            <BindMap MUri="peripheral/can/0/mo/17" Proxy="app/CAN_NODE/0/hwres_can_mobj1"/>
+            <BindMap MUri="peripheral/ccu4/0/cc4/1" Proxy="app/TIMER/0/hwres_ccu4_cc4"/>
+            <BindMap MUri="peripheral/can/0/mo/18" Proxy="app/CAN_NODE/0/hwres_can_mobj2"/>
+            <BindMap MUri="port/p/4/pad/0" Proxy="app/DIGITAL_IO/0/hwres_port_pin"/>
+            <BindMap MUri="port/p/4/pad/2" Proxy="app/DIGITAL_IO/2/hwres_port_pin"/>
+            <BindMap MUri="peripheral/scu/0/ccu/config" Proxy="app/CLOCK_XMC1/0/hwres_clkcntrlunit"/>
+            <BindMap MUri="port/p/4/pad/1" Proxy="app/DIGITAL_IO/1/hwres_port_pin"/>
+            <BindMap MUri="peripheral/can/0/node/1" Proxy="app/CAN_NODE/0/hwres_can_node"/>
+            <BindMap MUri="devicepackage/0/59" Proxy="app/DIGITAL_IO/0/__pin_hwres_port_pin"/>
+            <BindMap MUri="devicepackage/0/60" Proxy="app/DIGITAL_IO/1/__pin_hwres_port_pin"/>
+            <BindMap MUri="peripheral/can/0/global" Proxy="app/GLOBAL_CAN/0/hwres_can_global"/>
+            <BindMap MUri="peripheral/ccu4/0/global" Proxy="app/GLOBAL_CCU4/0/hwres_peripheral_ccu4_global"/>
+            <BindMap MUri="peripheral/scu/0/gcu/ccu4_global_enable/0" Proxy="app/GLOBAL_CCU4/0/hwres_peripheral_scu_gcu_ccu4_global_enable"/>
+        </SolverBndMap>
+    </Solver>
+</ProjectConfig>
